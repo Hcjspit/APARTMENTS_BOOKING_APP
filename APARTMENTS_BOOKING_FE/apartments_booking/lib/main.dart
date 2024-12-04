@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'pages/register_page.dart';
 import 'pages/login_page.dart';
 import 'pages/home_page.dart';
+import 'pages/verifyMail_page.dart';
+import 'pages/emailVerified_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,6 +32,8 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginPage(),
         '/register': (context) => RegisterPage(),
         '/home': (context) => HomePage(),
+        '/verifyMail': (context) => CheckEmailPage(),
+        '/emailVerified':(context) => EmailVerifiedPage()
         // Definisci altre rotte qui
       },
     );
